@@ -1,4 +1,7 @@
-_site/
-.sass-cache/
-.jekyll-cache/
+_site
+.sass-cache
+.jekyll-cache
 .jekyll-metadata
+rascunhos
+vendor
+_data/links.yml
