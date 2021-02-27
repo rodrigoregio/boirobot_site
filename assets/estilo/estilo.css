@@ -48,3 +48,51 @@ h3{
     line-height: 1.1em;
     margin: 0 10px 10px 10px;
 }
+.estaem{
+    font-size: 1.3em;
+    line-height: 1.5em;
+    font-weight: bolder;
+}
+.postxt{
+    font-size: 1.3em;
+    line-height: 1.3em;
+    padding-top:30px;
+}
+.post_list{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.links{
+    text-decoration: none;
+    opacity: 50%;
+
+}
+.link_foto{
+    text-decoration: none;
+    opacity: 100%;
+}
+.link_foto:hover{
+    opacity: 100%;
+}
+.links:hover{
+    text-decoration: none;
+    opacity: 100%;
+    color: darkgreen;
+}
+.link_foto:visited{
+    opacity: 50%;
+}
+.links:visited{
+    text-decoration: none;
+    opacity: 50%;
+    color: darkgreen;
+}
+.post_container{
+    margin-top: 10px;
+    text-align: center;
+}
+strong{
+    font-weight: 900;
+    font-size: 3em;
+}

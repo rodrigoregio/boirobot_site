@@ -3,12 +3,10 @@ layout: default
 ---
 <div class="post_container">
     <h2>Veja abaixo meus comandos!</h1>
-    <ul class="post_list">
         {% for p in site.posts %}
-            <li>
-                <h3><a href="{{ p.url }}">{{ p.title }}</a></h3>
-                {{ p.excerpt }}
-            </li>
+            <article class="post_list">
+                <h3><a href="{{ p.url }}" class="links">{{ p.title }}</a></h3>
+                <p>{{ p.excerpt }}</p>
+            </article><br>
         {% endfor %}
-    </ul>
 </div>
