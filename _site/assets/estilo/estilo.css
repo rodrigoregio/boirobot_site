@@ -1,0 +1,98 @@
+body{
+    text-align: justify;
+    max-width: 1024px;
+    min-width: 500px;
+    margin: auto;
+}
+h2{
+    font-size: 2.5em;
+    line-height: 1.5em;
+}
+h3{
+    font-size: 2em;
+    line-height: 1.3em;
+}
+.cabecalho_container{
+    max-width: 1024px;
+    background-color: #aaffaa;
+    align-content: center;
+    margin-top: 20px;
+    padding: 5px;
+    border: black solid 1px;
+    border-radius: 5px;
+}
+.centraliza{
+    text-align: center;
+    margin: 0 auto;
+}
+.foto_perfil{
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+}
+.titulo{
+    display: inline-block;
+    font-size: 3.5em;
+    position: relative;
+    top: -25px;
+    padding-left: 30px;
+}
+.foto{
+    width: 75px;
+    border: black 2px solid;
+    border-radius: 50%;
+    padding: 5px;
+}
+.botxt{
+    font-size: 1.25em;
+    line-height: 1.1em;
+    margin: 0 10px 10px 10px;
+}
+.estaem{
+    font-size: 1.3em;
+    line-height: 1.5em;
+    font-weight: bolder;
+}
+.postxt{
+    font-size: 1.3em;
+    line-height: 1.3em;
+    padding-top:30px;
+}
+.post_list{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.links{
+    text-decoration: none;
+    opacity: 50%;
+
+}
+.link_foto{
+    text-decoration: none;
+    opacity: 100%;
+}
+.link_foto:hover{
+    opacity: 100%;
+}
+.links:hover{
+    text-decoration: none;
+    opacity: 100%;
+    color: darkgreen;
+}
+.link_foto:visited{
+    opacity: 50%;
+}
+.links:visited{
+    text-decoration: none;
+    opacity: 50%;
+    color: darkgreen;
+}
+.post_container{
+    margin-top: 10px;
+    text-align: center;
+}
+strong{
+    font-weight: 900;
+    font-size: 3em;
+}
